@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Home
+permalink: /
 ---
+
 
 <ul>
   {% for post in site.posts %}
@@ -11,3 +13,6 @@ title: Home
     </li>
   {% endfor %}
 </ul>
+
+
+<br>
